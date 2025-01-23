@@ -19,8 +19,8 @@ app.use(bodyParser.json())
 
 //cors
 const corsOptions = {
-    //origin: 'https://employee-management-system-nik.netlify.app', 
-    origin: 'http://localhost:3000', 
+    origin: 'https://nishad-kudav-expense-tracker.netlify.app', 
+    //origin: 'http://localhost:3000', 
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE", 
     credentials: true, 
   };
